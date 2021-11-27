@@ -1,0 +1,211 @@
+/* Объявление переменных цветов страницы */
+:root {
+  --color-title: #212121;
+  --color-text: #757575;
+  --color-accent: #2196f3;
+  --color-studio-header: #000;
+  --color-white: #fff;
+  --background-color-team: #f5f4fa;
+  --footer-color: #2f303a;
+}
+
+/* Подключение основного и альтернативного шрифтов, цвета текста */
+body {
+  font-family: Roboto, 'Open Sans', 'FF DIN', sans-serif;
+  background-color: var(--color-white);
+  color: var(--color-text);
+}
+
+/* СТУДИЯ */
+
+/* Стилизация лого */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: var(--color-studio-header);
+}
+
+.header .accent,
+.footer .accent {
+  color: var(--color-accent);
+}
+
+/* Значение по умолчанию для всех списков */
+.list {
+  list-style-type: none;
+}
+
+/* Значение по умолчанию для всех ссылок */
+.link {
+  text-decoration: none;
+}
+
+/* Стилизация навигации */
+.nav > .link,
+.contacts > .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav .link {
+  color: var(--color-title);
+}
+
+.contacts .link {
+  color: var(--color-text);
+}
+
+/* Ховер и фокус на ссылки хедера и футера */
+.nav .link:hover,
+.nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus,
+.contact-us .link:hover,
+.contact-us .link:focus {
+  color: var(--color-accent);
+}
+
+/* Герой */
+.hero {
+  background-color: var(--footer-color);
+}
+
+.hero .hero-title {
+  color: var(--color-white);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.hero .button:hover,
+.hero .button:focus {
+  background-color: var(--color-accent);
+}
+
+/* Наши качества */
+.qualities .title {
+  color: var(--color-title);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.qualities .text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Чем мы занимаемся */
+.work .title,
+.team .title {
+  color: var(--color-title);
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+.team {
+  background-color: var(--background-color-team);
+}
+
+.member,
+.position {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.member {
+  color: var(--color-title);
+  font-weight: 500;
+}
+
+/* Футер */
+.footer {
+  background-color: var(--footer-color);
+}
+
+.footer .logo {
+  color: var(--color-white);
+}
+
+.contact-us .link,
+address {
+  color: var(--color-white);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Прозрачность элементов футера */
+.contact-us .mail,
+.contact-us .tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ПОРТФОЛИО */
+
+.portfolio .button {
+  background-color: var(--background-color-team);
+  color: var(--color-title);
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+.portfolio .title {
+  color: var(--color-title);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio .text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
