@@ -73,6 +73,10 @@ body {
   color: var(--color-grey);
 }
 
+.nav-list .nav-link.current {
+  color: var(--color-blue);
+}
+
 /* Ховер и фокус на ссылки хедера и футера */
 .nav-link:hover,
 .nav-link:focus,
